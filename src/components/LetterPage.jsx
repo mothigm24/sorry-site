@@ -48,7 +48,7 @@ export default function LetterPage({ setCurrentPage }) {
                 <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-pink-50 to-purple-50">
                   {/* Save the photos with name like 1.jpg, 2.jpg ... and change the src to this - /images/${i}.jpg */}
                   <img
-                    src={`/images/1.jpg`}
+                    src={`/images/${i}.jpg`}
                     alt={`Beautiful memory ${i}`}
                     className="w-full h-36 object-cover"
                   />
@@ -129,7 +129,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.5 }}
             className="text-xl text-purple-200 leading-relaxed"
           >
-            You're so beautiful, but I still hurt you… I'm so sorry.💔
+            You're so Kind, but I still hurt you… I'm so sorry.💔
           </motion.p>
 
           <motion.p
@@ -138,7 +138,11 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person in my life. I promise to do better, to be better, for you.✨
+            I know I messed up, and I’m not going to pretend otherwise. You didn’t deserve the way I made you feel. But I need you to understand this — you matter to me more than I ever managed to show.
+
+I’ve been replaying everything we shared, every moment that actually meant something, and it’s painfully clear how much I damaged something valuable. I’m asking for forgiveness.
+
+I want to do better. I want to be better — not just for you, but because losing you made me see the parts of myself I need to fix.✨
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -164,7 +168,7 @@ export default function LetterPage({ setCurrentPage }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.5, duration: 0.8 }}
         >
-          I need you...
+          Sorry papa...
         </motion.button>
       </motion.div>
     </div>
